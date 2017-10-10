@@ -23,6 +23,7 @@
 		var maxUserPage;
         var orderByEmailUsers = 'asc';
 		$( document ).ready(function() {
+            $('input[type=radio][name=chart-data-source][value="users"]').prop('checked', true);
 			loadUsers();
 
 			$('#prev-users-page').click(function() {
