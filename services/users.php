@@ -3,7 +3,7 @@
     $db_conn = open();
 
     $result = null;
-    if($_REQUEST['cmd'] == 'load' && isset($_REQUEST['page']) && isset($_REQUEST['order-by-email']))
+    if(isset($_REQUEST['cmd']) && $_REQUEST['cmd'] == 'load' && isset($_REQUEST['page']) && isset($_REQUEST['order-by-email']))
     {
         $order_by_email = 'asc';
         if($_REQUEST['order-by-email'] === 'desc') 
