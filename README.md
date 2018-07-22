@@ -23,3 +23,8 @@ Task description:
     - First name: John, Gringo, Mark, Lisa, Maria, Sonya, Philip, Jose, Lorenzo, George, Justin
     - Last name: Johnson, Lamas, Jackson, Brown, Mason, Rodriguez, Roberts, Thomas, Rose, McDonalds
     - Domain: hotmail.com, gmail.com, live.com
+- Each record should be random first name and last name. The e-mail should be: <first name>.<last name>@<random domain>
+- For each record should generate three projects: My own, Outcouns, Free Time
+- For each record in users should generate random number of records (1-20) in time log table, with random project id and random number of hours (0.25-8.00). Records for each day should not exceed 8 hours
+    
+ 
