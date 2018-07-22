@@ -1,7 +1,7 @@
 # outcons
 Test task 
 
-In real world should have at least error handling. 
+In real world should have at least error handling, OOP, logs etc. 
 
 Demo: http://5.189.138.212:8109/
 
@@ -27,4 +27,12 @@ Task description:
 - For each record should generate three projects: My own, Outcouns, Free Time
 - For each record in users should generate random number of records (1-20) in time log table, with random project id and random number of hours (0.25-8.00). Records for each day should not exceed 8 hours
     
- 
+3) User interface should be one page divided into two columns at 50 percent:
+
+- The left column should contain grid with users divided by 10 per page using SQL Pagination
+- Sort the table
+- Date filter "From" ... "To"
+- Right column should contain bar chart (Google Charts). 1 bar for TOP 10 users with the highest number of hours for the selected period. The size of the bar is the amount of hours per user or project. Radio button to select user or project
+- Add button Compare for each user from users. With AJAX get data for hours for selected user. Set this data to chart in red. This data for hours should load only from Compare button 
+
+4) Add button to start procedure to initialize the database and reload the page
